@@ -26,12 +26,15 @@ const { image, summary, url } = basics
     <meta property="og:description" content={summary} />
     <meta property="og:image" content="" />
 
-    <meta name="twitter:card" content="summary_large_image" />
+    <!-- <meta name="twitter:card" content="summary_large_image" />
     <meta property="twitter:domain" content={url.split("//")[1] ?? ''} />
     <meta property="twitter:url" content={url} />
     <meta name="twitter:title" content={title} />
     <meta name="twitter:description" content={summary} />
-    <meta name="twitter:image" content="" />
+    <meta name="twitter:image" content="" /> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap" rel="stylesheet">
   </head>
   <body>
     <slot />
@@ -40,13 +43,16 @@ const { image, summary, url } = basics
 
 <style is:global>
   html {
-    font-family:
+    /* font-family:
       Menlo,
       Monaco,
       Lucida Console,
       "Courier New",
       Courier,
-      monospace;
+      monospace; */
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     background: #fff;
     letter-spacing: -0.025rem;
   }

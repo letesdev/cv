@@ -1,68 +1,55 @@
 {
   "basics": {
-    "name": "Miguel Ángel Durán",
-    "label": "Full Stack Developer con más de 15 años de experiencia & Creador de Contenido de Programación",
+    "name": "Carlos Santos Seisdedos",
+    "label": "Ingeniero de Telecomunicaciones y Robótica",
     "image": "/me.webp",
-    "email": "miduga@gmail.com",
-    "phone": "+34 688888888",
-    "url": "https://midu.dev",
-    "summary": "+15 años de experiencia como Desarrollador Web. Actualmente soy Creador de Contenido y Divulgador sobre Programación. Vivo en Barcelona, España. He trabajado en diferentes entornos: desde acelerar el desarrollo de start-ups hasta liderando equipos de empresas multinacionales.",
+    "email": "carlosantos2807@gmail.com",
+    "phone": "+34 676040034",
+    "url": "",
+    "summary": "Aburrido de Excels, es en este pequeño espacio es donde descargo mi curiosidad por la programación 😋",
     "location": {
       "address": "",
-      "postalCode": "08820",
-      "city": "el Prat de Llobregat",
+      "postalCode": "47001",
+      "city": "Valladolid",
       "countryCode": "ES",
       "region": "España"
     },
     "profiles": [
       {
         "network": "LinkedIn",
-        "username": "midudev",
-        "url": "https://linkedin.com/in/midudev"
-      },
-      {
-        "network": "X",
-        "username": "midudev",
-        "url": "https://x.com/midudev"
+        "username": "Carlos Santos Seisdedos",
+        "url": "https://linkedin.com/in/carlossantosseisdedos"
       },
       {
         "network": "GitHub",
-        "username": "midudev",
-        "url": "https://github.com/midudev"
+        "username": "letesdev",
+        "url": "https://github.com/letesdev"
       }
     ]
   },
   "work": [
     {
-      "name": "midudev",
-      "position": "Divulgador sobre Programación Web",
-      "url": "https://twitch.tv/midudev",
-      "startDate": "2021-01-01",
+      "name": "Renault",
+      "position": "R&AE ADAS Technical Project Manager",
+      "startDate": "2023-11-10",
       "endDate": null,
-      "summary": "Streamer de programación más visto en Español en Twitch. +1 millón de seguidores entre todas mis redes sociales. Reconocido por Google, Microsoft y GitHub por mi impacto en la comunidad de desarrolladores.",
-      "highlights": [
-        "Started the company"
-      ]
+      "summary": "Piloto de Innovación ADAS en el departamento de R&AE para la definición y el diseño del próximo sistema frenado automático de emergencia (Automatic Emergency Braking, AEB), anticipándome a los ensayos de la Euro NCAP 2026. Responsable de la coordinación de los recursos y las actividades que comprenden desde las necesidades cliente hasta la validación final (equivalentes a ASPICE): especificaciones sistema, software, safety, de ciberseguridad y electrónicas."
     },
     {
-      "name": "Adevinta",
-      "position": "Lead Frontend Architect",
+      "name": "Renault",
+      "position": "ADAS System and Validation Engineer",
       "url": "https://twitch.tv/midudev",
-      "startDate": "2016-06-01",
-      "endDate": "2022-09-01",
-      "summary": "Lideré una convergencia técnica entre diferentes productos y migramos una arquitectura monolítica a otra más flexible y optimizada. Fomenté buenas prácticas y mejoras en la cultura de rendimiento, además de la entrega rápida de valor a los usuarios.",
-      "highlights": [
-        "Started the company"
-      ]
+      "startDate": "2022-06-01",
+      "endDate": "2023-11-01",
+      "summary": "Piloto del desarrollo, la integración y la validación del sistema ADAS Control de Crucero Adaptativo Contextual (CACC) para 5 proyectos en fase desarrollo (Captur 2024, Austral 2024, Espace 2024 y Rafale, entre otros) y 3 proyectos en vida serie (Megane E-Tech, Austral 2022 y Espace 2023) de acuerdo con los métodos de ingeniería de Renault. "
     },
     {
-      "name": "Hubii",
-      "position": "Senior FrontEnd Developer",
-      "startDate": "2011-03-01",
-      "endDate": "2016-05-01",
-      "summary": "Desarrollé una plataforma de noticias geolocalizadas y una API para consumir la información. Escalé los servicios para soportar la carga de más de cientos de miles de peticiones al día. Recorté los tiempos de entrega y despliegues a producción a la mitad. Colaboré con Mozilla y Telefónica para desarrollar la primera app para televisores con FirefoxOS.",
-      "highlights": [
-        "Started the company"
+      "name": "Renault",
+      "position": "Autonomous Driving Trainee",
+      "url": "https://twitch.tv/midudev",
+      "startDate": "2021-03-01",
+      "endDate": "2021-09-01",
+      "tasks": [ "Desarrollo de mapas de alta definición (High Definition Map) para un proyecto de conducción autónoma de nivel 4 (SAE).", "Reestructuración de su arquitectura (red móvil, sistemas de posicionamiento GNSS, etc) para incluir un calculador 5G y desarrollar conexiones V2x.", "Estudio de la seguridad funcional en el proyecto, implementando la norma ISO 26262 y SOTIF: análisis de riesgos y definición de requisitos de seguridad."
       ]
     }
   ],
@@ -77,17 +64,25 @@
       "Awarded 'Volunteer of the Month'"
     ]
   }],
-  "education": [{
-    "institution": "Universitat Oberta de Catalunya",
-    "url": "https://www.uoc.edu/portal/es/index.html",
-    "area": "Ingeniero de Software",
-    "studyType": "Bachelor",
-    "startDate": "2003-01-01",
-    "endDate": "2009-01-01",
-    "score": "4.0",
-    "courses": [
-      "DB1101 - Basic SQL"
-    ]
+  "education": [
+    {
+    "institution": "IMT Atlantique",
+    "url": "https://www.imt-atlantique.fr/en/study/engineering",
+    "area": "Engineering, Major in Robotics ",
+    "studyType": "Master of Science",
+    "startDate": "2019-09-01",
+    "endDate": "2022-09-01",
+    "score": "",
+    "courses": []
+  }, {
+    "institution": "Universidad de Valladolid",
+    "url": "https://www.tel.uva.es/en/studies/degrees/masterit.htm",
+    "area": "Telecommunications Engineering",
+    "studyType": "Bachelor's Degree & Master of Science",
+    "startDate": "2016-09-01",
+    "endDate": "2022-09-01",
+    "score": "",
+    "courses": []
   }],
   "awards": [{
     "title": "Award",
@@ -110,6 +105,55 @@
   }],
   "skills": [
     {
+      "name": "ROS",
+      "level": "Avanzado",
+      "keywords": [
+        "Robotics"
+      ]
+    },
+    {
+      "name": "Docker",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Frontend"
+      ]
+    },
+    {
+      "name": "Git",
+      "level": "Avanzado",
+      "keywords": [
+        "Control de Versiones", "Colaboración", "Código Fuente"
+      ]
+    },
+    {
+      "name": "GitHub",
+      "level": "Avanzado",
+      "keywords": [
+        "Control de Versiones", "Colaboración", "Código Fuente", "Git"
+      ]
+    },
+    {
+      "name": "Python",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Frontend"
+      ]
+    },
+    {
+      "name": "C/C++",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Frontend"
+      ]
+    },
+    {
+      "name": "MySQL",
+      "level": "Avanzado",
+      "keywords": [
+        "Bases de Datos", "SQL", "Almacenamiento de Datos", "Backend"
+      ]
+    },
+    {
       "name": "HTML",
       "level": "Master",
       "keywords": [
@@ -128,62 +172,6 @@
       "level": "Master",
       "keywords": [
         "Desarrollo Web", "Frontend", "Backend", "Fullstack"
-      ]
-    },
-    {
-      "name": "Tailwind",
-      "level": "Avanzado",
-      "keywords": [
-        "Desarrollo Web", "Frontend", "CSS Framework", "Diseño Responsive"
-      ]
-    },
-    {
-      "name": "TypeScript",
-      "level": "Avanzado",
-      "keywords": [
-        "Desarrollo Web", "Frontend", "Backend", "JavaScript Superset"
-      ]
-    },
-    {
-      "name": "Node",
-      "level": "Avanzado",
-      "keywords": [
-        "Desarrollo Web", "Backend", "JavaScript", "Servidor"
-      ]
-    },
-    {
-      "name": "MySQL",
-      "level": "Avanzado",
-      "keywords": [
-        "Bases de Datos", "SQL", "Almacenamiento de Datos", "Backend"
-      ]
-    },
-    {
-      "name": "Git",
-      "level": "Avanzado",
-      "keywords": [
-        "Control de Versiones", "Colaboración", "Código Fuente"
-      ]
-    },
-    {
-      "name": "GitHub",
-      "level": "Avanzado",
-      "keywords": [
-        "Control de Versiones", "Colaboración", "Código Fuente", "Git"
-      ]
-    },
-    {
-      "name": "Next.js",
-      "level": "Avanzado",
-      "keywords": [
-        "Desarrollo Web", "Frontend", "React Framework", "SSR", "Static Generation"
-      ]
-    },
-    {
-      "name": "React",
-      "level": "Avanzado",
-      "keywords": [
-        "Desarrollo Web", "Frontend", "JavaScript Library", "UI"
       ]
     }
   ],
@@ -210,66 +198,42 @@
   }],
   "projects": [
     {
-      "name": "mars.codes",
+      "name": "BingoLetes",
       "isActive": true,
-      "description": "Historia interactiva con retos de programación para viajar a Marte",
+      "description": "Imprime unos cartones y juega al bingo en familia desde casa. Deja que las voces de los personajes te diviertan el día ",
       "highlights": [
-        "Elige tu propia aventura",
-        "En desarrollo"
+        "WebApp",
+        "GitHub Pages"
       ],
-      "url": "https://mars.codes"
+      "url": "https://letesdev.github.io/bingoletes/",
+      "github": "https://github.com/letesdev/bingoletes"
     },
     {
-      "name": "AdventJS",
+      "name": "papresa",
       "isActive": true,
-      "description": "Retos de programación en JavaScript para cada día de diciembre hasta Navidad",
+      "description": "Aplicación completa para iOS y Android, que al final acabó siendo una página web :P",
       "highlights": [
-        "+1 millón de visitas",
-        "Multidioma",
-        "JavaScript & TypeScript"
+        "WebApp",
+        "GitHub Pages",
+        "iOS", 
+        "Android",
+        "Framework7"
       ],
-      "url": "https://adventjs.dev"
+      "url": "https://letesdev.github.io/papresa/",
+      "github": "https://github.com/letesdev/papresa"
     },
     {
-      "name": "Codember",
-      "isActive": true,
-      "description": "Juego interactivo de programación con retos y secretos",
+      "name": "Software de Vigilancia Marítima",
+      "isActive": false,
+      "description": "Identificación de transbordos ilegales de pesca, utilizando datos AIS (Sistema de Identificación Automática)",
       "highlights": [
-        "+2000 usuarios activos",
-        "Retos para cualquier lenguaje"
+        "CEREMA",
+        "School Project",
+        "Python", 
+        "AIS data"
       ],
-      "url": "https://codember.dev"
-    },
-    {
-      "name": "codi.link",
-      "isActive": true,
-      "description": "Playground de código HTML, CSS y JavaScript para compartir",
-      "highlights": [
-        "100k visitas al mes",
-        "Desarrollado por la comunidad"
-      ],
-      "url": "https://codi.link",
-      "github": "https://github.com/midudev/codi.link"
-    },
-    {
-      "name": "Pruebas Técnicas",
-      "isActive": true,
-      "description": "Lista de pruebas técnicas de empresas para practicar programación",
-      "highlights": [
-        "100% gratuito",
-        "+500 soluciones de la comunidad"
-      ],
-      "url": "https://pruebastecnicas.com",
-      "github": "https://github.com/midudev/pruebas-tecnicas"
-    },
-    {
-      "name": "miduConf",
-      "description": "Conferencia de programación en streaming para la comunidad hispanohablante con charlas top",
-      "highlights": [
-        "+15k tickets repartidos",
-        "+50k espectadores en directo"
-      ],
-      "url": "https://miduconf.com"
+      "url": "https://github.com/letesdev/IMTA-PE-S3", 
+      "github": "https://github.com/letesdev/IMTA-PE-S3"
     }
   ]
 }

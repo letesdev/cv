@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    # ports:
+    #   - '4321:4321'
+    #   - '4322:4322'
+    # environment:
+    #   - NODE_ENV=production
+    volumes:
+      - type: bind
+        source: C:\Users\s023793\letesdev\cv
+        target: /home/app
+    restart: unless-stopped

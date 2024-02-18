@@ -13,22 +13,22 @@ import { basics } from "@cv"
 const { name, label } = basics
 ---
 
-<Layout title={`Portafolio de ${name} - ${label}`}>
+<Layout title={`${name} - ${label}`}>
   <main>
     <Hero />
     <About />
-    <Experience />
-    <Education />
-    <Projects />
     <Skills />
+    <Projects />
+    <!-- <Experience />
+    <Education /> -->
   </main>
 
-  <KeyboardManager />
+  <!-- <KeyboardManager /> -->
 </Layout>
 
 <style>
   main {
-    padding: 4rem;
+    padding: 1rem;
     margin: auto;
     width: 100%;
   }

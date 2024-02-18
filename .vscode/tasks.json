@@ -7,6 +7,8 @@
       "runOptions": {
         "runOn": "folderOpen"
       },
+      "problemMatcher": [],
+      "label": "npm: dev"
     }
   ]
 }
