@@ -1,19 +1,9 @@
 
 
 <div align="center">
-<img src="logo.png" height="90px" width="auto" /> 
 <h2>
-    <em>Résumé</em> minimalista maquetado para web y pdf
+    <em>Porfolio</em> minimalista 
 </h2>
-<p>
-Esquema del JSON de CV de <a href="https://jsonresume.org/schema/">jsonresume.org</a>
-</p>
-
-
-<p>
-Basado en el diseño de <a href="https://github.com/BartoszJarocki/cv">Bartosz Jarocki</a>
-
-</p>
 
 </div>
 
@@ -41,27 +31,33 @@ Basado en el diseño de <a href="https://github.com/BartoszJarocki/cv">Bartosz J
 <div align="center">
 
 ![Astro Badge](https://img.shields.io/badge/Astro-BC52EE?logo=astro&logoColor=fff&style=flat)
-![GitHub stars](https://img.shields.io/github/stars/midudev/minimalist-portfolio-json)
+![Docker Badge](https://img.shields.io/badge/docker-0db7ed?style=flat&logo=docker&logoColor=white)
+
+
+<!-- ![GitHub stars](https://img.shields.io/github/stars/midudev/minimalist-portfolio-json)
 ![GitHub issues](https://img.shields.io/github/issues/midudev/minimalist-portfolio-json)
 ![GitHub forks](https://img.shields.io/github/forks/midudev/minimalist-portfolio-json)
-![GitHub PRs](https://img.shields.io/github/issues-pr/midudev/minimalist-portfolio-json)
+![GitHub PRs](https://img.shields.io/github/issues-pr/midudev/minimalist-portfolio-json) -->
 
 </div>
 
-<img src="portada.jpg"></img>
+<img src="docs\mockups\Web_iPhone_pika.png"></img>
 
 ## 🛠️ Stack
 
 - [**Astro**](https://astro.build/) - El framework web de la nueva época.
 - [**Typescript**](https://www.typescriptlang.org/) - JavaScript con sintaxis de tipado.
-- [**Ninja Keys**](https://github.com/ssleptsov/ninja-keys) - Menu desplegable con atajos de teclado hecho en puro Javascript.
+- [**JSON**](https://www.json.org/json-es.html) - Formato de texto ligero. Punto de entrada para la **configuración del porfolio**
+<!-- - [**Ninja Keys**](https://github.com/ssleptsov/ninja-keys) - Menu desplegable con atajos de teclado hecho en puro Javascript. -->
+
 
 
 ## 🚀 Empezar
 
-### 1. Usa este [repo](https://github.com/midudev/minimalist-portfolio-json) como _template_ de un proyecto de Astro
+###A. Puedes referirte a la repo de [midudev/minimalist-portfolio-json](https://github.com/midudev/minimalist-portfolio-json) para construir un porfolio propio como he hecho yo.
 
-
+<details>
+<summary>Instrucciones de @midudev</summary>
 - Yo uso [pnpm](https://pnpm.io/installation) como gestor de dependencias y empaquetador.
 
 ```bash
@@ -84,6 +80,15 @@ pnpm dev
 
 
 1. Abre [**http://localhost:4321**](http://localhost:4321/) en tu navegador para ver el resultado 🚀
+</details>
+
+
+
+
+### B. Puedes usar esta repo para construir un porfolio propio.
+
+
+
 
 
 ## 🧞 Comandos
@@ -96,9 +101,10 @@ pnpm dev
 
 
 
-## 🔑 Licencia
+##  Créditos y Licencias
 
-[MIT](LICENSE.txt) - Creado por [**midudev**](https://midu.dev).
+- _fork_ de [midudev/minimalist-portfolio-json](https://github.com/midudev/minimalist-portfolio-json), basado en el diseño de [Bartosz Jarocki](https://github.com/BartoszJarocki/cv) y esquema del JSON de CV de [jsonresume.org](https://jsonresume.org/schema/).
+- [MIT](LICENSE.txt) - Creado por [**midudev**](https://midu.dev).
 
 
 
