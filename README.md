@@ -1,65 +1,30 @@
 
 
-<div align="center">
-<h2>
-    <em>Porfolio</em> minimalista 
-</h2>
-
-</div>
-
-<div align="center">
-    <a href="#🚀-empezar">
-        Empezar
-    </a>
-    <span>&nbsp;✦&nbsp;</span>
-    <a href="#🧞-comandos">
-        Comandos
-    </a>
-    <span>&nbsp;✦&nbsp;</span>
-    <a href="#🔑-licencia">
-        Licencia
-    </a>
-    <span>&nbsp;✦&nbsp;</span>
-    <a href="https://midu.dev">
-        Personal
-    </a>
-   
-</div>
-
-<p></p>
+# _Porfolio_ minimalista 
 
 <div align="center">
 
 ![Astro Badge](https://img.shields.io/badge/Astro-BC52EE?logo=astro&logoColor=fff&style=flat)
 ![Docker Badge](https://img.shields.io/badge/docker-0db7ed?style=flat&logo=docker&logoColor=white)
-
-
-<!-- ![GitHub stars](https://img.shields.io/github/stars/midudev/minimalist-portfolio-json)
-![GitHub issues](https://img.shields.io/github/issues/midudev/minimalist-portfolio-json)
-![GitHub forks](https://img.shields.io/github/forks/midudev/minimalist-portfolio-json)
-![GitHub PRs](https://img.shields.io/github/issues-pr/midudev/minimalist-portfolio-json) -->
-
+![JSON Badge](https://img.shields.io/badge/json-f5ab59?style=flat&logo=json&logoColor=white&color=4bc61d)
 </div>
+
+_Porfolio_ minimalista configurable a través de un simple fichero JSON: `cv.json`
+
+
 
 <img src="docs\mockups\Web_iPhone_pika.png"></img>
 
-## 🛠️ Stack
-
-- [**Astro**](https://astro.build/) - El framework web de la nueva época.
-- [**Typescript**](https://www.typescriptlang.org/) - JavaScript con sintaxis de tipado.
-- [**JSON**](https://www.json.org/json-es.html) - Formato de texto ligero. Punto de entrada para la **configuración del porfolio**
-<!-- - [**Ninja Keys**](https://github.com/ssleptsov/ninja-keys) - Menu desplegable con atajos de teclado hecho en puro Javascript. -->
 
 
+## Uso
 
-## 🚀 Empezar
-
-###A. Puedes referirte a la repo de [midudev/minimalist-portfolio-json](https://github.com/midudev/minimalist-portfolio-json) para construir un porfolio propio como he hecho yo.
+### A. De forma local
 
 <details>
 <summary>Instrucciones de @midudev</summary>
-- Yo uso [pnpm](https://pnpm.io/installation) como gestor de dependencias y empaquetador.
 
+### 1. Usa la repo de midudev como template
 ```bash
 # Activa pnpm en MacOS, WSL & Linux:
 corepack enable
@@ -68,28 +33,14 @@ corepack prepare pnpm@latest --activate
 # Inicializa el proyecto
 pnpm create astro@latest -- --template midudev/minimalist-portfolio-json
 ```
-
 ### 2. Añade tu contenido:
 Edita el archivo `cv.json` para crear tu propio Portafolio/CV imprimible.
-### 3. Lanza el servidor de desarrollo:
 
+### 3. Lanza el servidor de desarrollo:
 ```bash
-# Disfruta del resultado
 pnpm dev
 ```
-
-
-1. Abre [**http://localhost:4321**](http://localhost:4321/) en tu navegador para ver el resultado 🚀
-</details>
-
-
-
-
-### B. Puedes usar esta repo para construir un porfolio propio.
-
-
-
-
+### 4. Abre [**http://localhost:4321**](http://localhost:4321/) en tu navegador para ver el resultado 🚀
 
 ## 🧞 Comandos
 
@@ -99,11 +50,34 @@ pnpm dev
 | ⚙️  | `build`          | Comprueba posibles errores y hace un empaquetado de producción en `./dist/`.      |
 | ⚙️  | `preview`        | Vista previa en local `localhost:4321` |
 
+</details>
 
+### B. Usando docker
+
+<details>
+<summary>Instrucciones de @BartoszJarocki</summary>
+
+### 1. Construye el container
+```bash
+docker compose build
+```
+
+### 2. Corre el container
+```bash
+docker compose up
+```
+
+### 3. Para y limpia el container
+```bash
+Ctrl-C
+docker compose down
+```
+
+</details>
 
 ##  Créditos y Licencias
 
-- _fork_ de [midudev/minimalist-portfolio-json](https://github.com/midudev/minimalist-portfolio-json), basado en el diseño de [Bartosz Jarocki](https://github.com/BartoszJarocki/cv) y esquema del JSON de CV de [jsonresume.org](https://jsonresume.org/schema/).
+- _Fork_ de [midudev/minimalist-portfolio-json](https://github.com/midudev/minimalist-portfolio-json), basado en el diseño de [Bartosz Jarocki](https://github.com/BartoszJarocki/cv) y esquema del JSON de CV de [jsonresume.org](https://jsonresume.org/schema/).
 - [MIT](LICENSE.txt) - Creado por [**midudev**](https://midu.dev).
 
 
