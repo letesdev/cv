@@ -223,17 +223,16 @@
       "github": "https://github.com/letesdev/papresa"
     },
     {
-      "name": "Software de Vigilancia Marítima",
+      "name": "maritIMTguard",
       "isActive": false,
-      "description": "Identificación de transbordos ilegales de pesca, utilizando datos AIS (Sistema de Identificación Automática)",
+      "description": "Software de Vigilancia Marítima para identificación de transbordos ilegales de pesca, utilizando datos AIS (Sistema de Identificación Automática)",
       "highlights": [
-        "CEREMA",
-        "School Project",
-        "Python", 
-        "AIS data"
+        "Python",
+        "AIS data",
+        "CLI"
       ],
-      "url": "https://github.com/letesdev/IMTA-PE-S3", 
-      "github": "https://github.com/letesdev/IMTA-PE-S3"
+      "url": "https://github.com/letesdev/maritIMTguard", 
+      "github": "https://github.com/letesdev/maritIMTguard"
     }
   ]
 }
