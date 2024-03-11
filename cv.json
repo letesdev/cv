@@ -218,7 +218,7 @@
     {
       "name": "papresa",
       "isActive": true,
-      "description": "Aplicación completa para iOS y Android, que al final acabó siendo una página web :P",
+      "description": "Aplicación completa para iOS y Android, que al final acabó siendo una página web 😋",
       "highlights": [
         "WebApp",
         "GitHub Pages",
@@ -228,6 +228,18 @@
       ],
       "url": "https://letesdev.github.io/papresa/",
       "github": "https://github.com/letesdev/papresa"
+    },
+    {
+      "name": "Gobblets Gobblers",
+      "isActive": true,
+      "description": "Implementación del famoso juego Gobblets Gobblers, una variante del Tres en Raya. Demuestra lo que vales frente a un bot! 🕹",
+      "highlights": [
+        "C/C++",
+        "CLI", 
+        "Bot"
+      ],
+      "url": "https://github.com/letesdev/IMTA-PRASE-GobbletGobblers", 
+      "github": "https://github.com/letesdev/IMTA-PRASE-GobbletGobblers"
     },
     {
       "name": "maritIMTguard",
