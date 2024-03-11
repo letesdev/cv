@@ -6,7 +6,7 @@
     "email": "carlosantos2807@gmail.com",
     "phone": "+34 676040034",
     "url": "",
-    "summary": "Aburrido de Excels, es en este pequeño espacio dónde descargo mi curiosidad por la programación 😋",
+    "summary": "Aburrido de Excels y PowerPoints, es en este pequeño espacio dónde descargo mi curiosidad por la programación 😋",
     "location": {
       "address": "",
       "postalCode": "47001",
@@ -154,6 +154,13 @@
       ]
     },
     {
+      "name": "Matlab",
+      "level": "Avanzado",
+      "keywords": [
+        "Leyes de Control", "Simulaciones"
+      ]
+    },
+    {
       "name": "HTML",
       "level": "Master",
       "keywords": [
@@ -200,7 +207,7 @@
     {
       "name": "BingoLetes",
       "isActive": true,
-      "description": "Imprime unos cartones y juega al bingo en familia desde casa. Deja que las voces de los personajes te diviertan el día ",
+      "description": "Imprime unos cartones y juega al bingo en familia desde casa. Deja que las voces de los personajes te alegren el día 😂",
       "highlights": [
         "WebApp",
         "GitHub Pages"
@@ -225,7 +232,7 @@
     {
       "name": "maritIMTguard",
       "isActive": false,
-      "description": "Software de Vigilancia Marítima para identificación de transbordos ilegales de pesca, utilizando datos AIS (Sistema de Identificación Automática)",
+      "description": "Software de Vigilancia Marítima para identificación de transbordos ilegales de pesca 🎣",
       "highlights": [
         "Python",
         "AIS data",
