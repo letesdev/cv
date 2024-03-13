@@ -253,6 +253,18 @@
       ],
       "url": "https://github.com/letesdev/maritIMTguard", 
       "github": "https://github.com/letesdev/maritIMTguard"
+    },
+    {
+      "name": "Simulador de Sentido Eléctrico",
+      "isActive": false,
+      "description": "Simulador para la navegación 2D de un pez en un acuario, utilizando el sentido eléctrico ⚡ que poseen algunos peces como los mormidos 🐟",
+      "highlights": [
+        "Matlab",
+        "Control",
+        "Bio-inspiración"
+      ],
+      "url": "https://github.com/letesdev/IMTA-ROBIO", 
+      "github": "https://github.com/letesdev/IMTA-ROBIO"
     }
   ]
 }
