@@ -8,6 +8,7 @@ import Hero from "@/components/sections/Hero.astro"
 import Projects from "@/components/sections/Projects.astro"
 import Skills from "@/components/sections/Skills.astro"
 import KeyboardManager from "@/components/KeyboardManager.astro"
+import Writings from "@/components/sections/Writings.astro"
 
 import { basics } from "@cv"
 const { name, label } = basics
@@ -17,6 +18,7 @@ const { name, label } = basics
   <main>
     <Hero />
     <About />
+    <Writings />
     <Skills />
     <Projects />
     <!-- <Experience />
@@ -24,9 +26,7 @@ const { name, label } = basics
   </main>
 
   <!-- <KeyboardManager /> -->
-  <a href="https://librecounter.org/referer/show">
-    <img src="https://librecounter.org/counter.svg" referrerpolicy="unsafe-url" hidden/>
-  </a>
+  
 </Layout>
 
 <style>

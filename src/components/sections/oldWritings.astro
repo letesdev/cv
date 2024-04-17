@@ -1,0 +1,43 @@
+---
+import Section from "../Section.astro"
+
+import { essays } from "@cv"
+// const { url,date,title } = essays
+---
+
+<Section title="Ensayos">
+  <ul>
+    {
+        essays.map(
+            (
+            ({ url,date,title }) => {
+                return (
+                <li>
+                    <div class="essay-date">
+                        <time>{date}</time>
+                    </div>
+                    <span>
+                        <a href={url}>{title}</a>
+                    </span>
+                </li>
+                )
+            }
+            )
+        )
+    }
+    
+  </ul>
+</Section>
+
+<style>
+  li {
+    display: flex;
+    /* align-content: center; //nuevo en chrome123 */
+  }
+
+  .essay-date {
+    min-width: 100px;
+  }
+  
+
+</style>

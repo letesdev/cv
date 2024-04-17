@@ -1,0 +1,90 @@
+---
+layout: ../../layouts/MarkdownPostLayout.astro
+title: 'Llevo (casi) 100 horas con los ojos cerrados y así es como el iPhone me ha ayudado'
+date: 2024/04/16
+description: 'Tips de configuración para el iPhone, para ayudarte después de una operación de miopía.'
+author: 'Carlos Santos Seisdedos'
+tags: ["astro", "bloguear", "aprender en público"]
+---
+import announce_calls from '../../assets/iOS_screenshot_announce_calls.jpg';
+import settings_search from '../../assets/iOS_screenshot_settings_search.PNG';
+import white_point from '../../assets/iOS_screenshot_white_point.PNG';
+import screen_zoom from '../../assets/iOS_screenshot_screen_zoom.PNG';
+
+
+
+El miércoles me operé de miopía usango la técnica PRK y los siguientes días he necesitado encerrarme a oscuras y con los ojos cerrados... 
+La técnica PRK es un tipo de operación láser de miopía, que consiste en aplanar la córnea para reducir su curvatura y corregir las dioptrías. No suena bonito, y los días siguientes han sido una montaña rusa de experiencias: días que toleraba la luz y días que no, días que necesitaba encerrarme a oscuras y días que podía darme un paseo, días que veía borroso, etc. 
+En cualquier momento, pero sobretodo con los ojos cerrados, el iPhone ha estado ahí para acompañarme e incluso para ayudarme, ¡te lo cuento!
+
+*Nota Bene*: no he incluido el recorrido completo para encontrar estos ajustes, la última versión de iOS premite buscarlos haciendo un pequeño scroll hacia abajo directamente desde Ajustes, mira un ejemplo:
+<figure>
+    <img class="post_img" src={settings_search.src} />
+    <figcaption>Búsqueda de *punto blanco* desde *Ajustes*.</figcaption>
+</figure>
+
+## I. Prepara tu entorno
+
+Los accesorios de domótica son una muy buena opción para automatizar tu casa y ayudarte estos días después de la operación. Apple tiene una [web entera reservada a estos accesorios](https://www.apple.com/es/shop/accessories/all/homekit), pero te comento los más interesantes desde mi punto de vista. 
+
+1. **Bombillas o lámparas inteligentes**: ¿no te ha pasado tumbarte en la cama y no tener una lámpara cerca? A mi sí, yo tengo un interruptor cerca de la cama pero da demasiada luz y me cegaba demasiado, por lo que prefería utilizar una lámpara de pie que tengo en una esquina. El problema es que había días que me quedaba dormido, pero también echaba de menos la luz después de tantas horas a oscuras... problemas del primer mundo sí, pero ¡problema solucionadocon estas bombillas!.
+
+2. **Interruptores o enchufes inteligentes**: de forma parecida a lo anterior, pero "atacando" directamente el interruptor o el enchufe. [Sonoff](https://sonoff.tech/product/diy-smart-switches/minir4/) tiene una serie de *switches* muy interesantes para instalar en los interruptores, que además quedan ocultos, y te permiten automatizar las luces de tu casa. 
+
+3. **Cámara o telefonillo inteligente**: si esperas recibir visitas, los *kits de acceso* pueden ser muy buena opción para evitar levantarte de la cama o del sofá y chocarte con todo con las prisas. Hay algunos que incluso te anuncian quién está en la puerta, gracias al reconocimiento facial. 
+
+## II. Prepara tu iPhone 
+
+1. **Desactiva FaceID y elimina el código de desbloqueo**: se supone que vas a estar en un entorno cercano y seguro - no creo que tengáis un alto riesgo de robo en vuestra casa y tampoco vas a tener que pagar usando Apple Pay-, por lo que desactivar el código te va resultar muy útil cuando lleves gafas de sol o no quieras mirar la pantalla por el daño que causa en tus ojos. 
+
+2. **Reduce el punto blanco**: lo único que realmente relaja los ojos es estar en una habitación completamente a oscuras, y créeme que en esos momentos la luminosidad mínima por defecto del iPhone se siente como una linterna de 1000 lúmenes... 
+
+    <figure>
+        <img class="post_img" src={white_point.src} />
+        <figcaption>Ajuste de *Punto blanco* en el menú *Accesibilidad*.</figcaption>
+    </figure>
+
+3. Usa el **Zoom de pantalla** y pon **el tamaño de letra al máximo**: después de la operación no vas a poder enfocar bien, ni de lejos ni de cerca, por lo que este ajuste te ayudará a encontrar los botones con más facilidad.
+    <figure>
+        <img class="post_img" src={screen_zoom.src} />
+        <figcaption>Ajuste de *Zoom de pantalla* en el menú *Pantalla y brillo*.</figcaption>
+    </figure>
+
+4. Programa **tres modos de concentración**: os cuento como lo tengo configurado yo y porqué.
+    1. **Modo Descanso**: para evitar recibir llamadas y notificaciones salvo mis contactos favoritos o si repiten la llamada 3 veces, y además para controlar el sueño y las siestas.
+    2. **Modo No Molestar**: para evitar recibir notificaciones pero aceptar todas las llamadas.
+    3. **Modo Tiempo Libre** : para evitar recibir notificaciones y denegar ciertas llamadas, en especial las de trabajo. 
+
+5. Si tienes un teléfono de empresa adicional, **desvía las llamadas desde el teléfono profesional a tu número personal** por una sencilla razón: ¡no has estado configurando el iPhone para nada!
+
+6. Activa la función de **Anunciar llamadas** para evitar la radiación de luz en los ojos. 
+
+    <figure>
+        <img class="post_img" src={announce_calls.src} />
+        <figcaption>Ajuste *Anunciar llamadas* en el menú *Teléfono*.</figcaption>
+    </figure>
+
+7. Prepara **el contenido audio** que más te guste: es más fácil si tienes tus artistas o podcasts preferidos guardados. 
+
+8. Prepara **las notificaciones de las aplicaciones**: 
+    1. Desactiva o silencia las notificaciones de aplicaciones que no te vayan a servir: AliExpress, Amazon, etc. 
+    2. Activa las notificaciones de aplicaciones útiles, como Mail, para que Siri pueda leerte los correos. Esto lo vemos [en el punto 3](#iii-usa-las-funciones-por-defecto-de-ios).
+
+9. Prepara ciertos *Atajos* que te puedan servir: os comparto ciertos atajos que os pueden resultar útil, ¡incluso después de la operación!
+    1. [*Envía la última foto por WhatsApp*](https://www.icloud.com/shortcuts/be2acf9699224d3586d4eea8499aeea4)
+    2. [*Convertir texto en audio*](https://www.icloud.com/shortcuts/32422c43db7540299610c0b22909fcaa)
+    3. [*Sleep Timer*](https://www.icloud.com/shortcuts/7c8df162abc342bb8a78808bc5c18bc7): este es un poco más complejo, la idea detrás de él es poder configurar alarmas en función de las horas de sueño que quieres dormir. Además de eso, activa el modo No Molestar hasta la primera alarma, para evitar despertarte con cualquier notificación. 
+
+## III. Usa las funciones por defecto de iOS (y WatchOS)
+
+1. Usa **Oye Siri** para (casi) todo lo que se te ocurra: 
+    + *Oye Siri, ¿qué hora es?*
+    + *Oye Siri, pon una alarma dentro de 4 horas para recordarme echar las gotas.*
+    + *Oye Siri, pon un temporizador de 5 minutos.*
+    + *Oye Siri, ¿tengo notificaciones?*: además de leerte las notificaciones, te servirá si algún familiar distraído te escribe por WhatsApp y prefieres llamar...
+    + *Oye Siri, llama a Pepe*
+    + *Oye Siri, reproduce el último podcast de Tengo Un Plan desde Spotify*
+
+2. Si tienes Apple Watch, deja que **diga la hora tocando la esfera con dos dedos**
+
+3. Si convives con alguien y ambos tenéis Apple Watch, ¡os puede resultar útil la función de **Walkie-Talkie** que muchos olvidamos! En vez de tener que llamar por teléfono a una persona que está en el piso inferior o fuera en el jardín, esta función es la apropiada para darle un toque de atención simple y rápido. 

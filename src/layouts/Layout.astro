@@ -1,4 +1,5 @@
 ---
+import Footer from "@/components/Footer.astro"
 import { basics } from "@cv"
 import { skills } from "@cv"
 
@@ -37,9 +38,14 @@ const { image, summary, meta, url } = basics
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   </head>
   <body>
     <slot />
+    <Footer />
+    <a href="https://librecounter.org/referer/show">
+      <img src="https://librecounter.org/counter.svg" referrerpolicy="unsafe-url" hidden/>
+    </a>
   </body>
 </html>
 
@@ -59,8 +65,7 @@ const { image, summary, meta, url } = basics
     letter-spacing: -0.025rem;
   }
 
-  body,
-  figure {
+  body {
     margin: 0;
     padding: 0;
   }
@@ -73,6 +78,7 @@ const { image, summary, meta, url } = basics
     list-style: none;
     margin: 0;
     padding: 0;
+    /* overflow-wrap: break-word; */
   }
 
   *,
@@ -112,7 +118,7 @@ const { image, summary, meta, url } = basics
     display: none !important;
   }
 
-  @media print {
+  /* @media print {
     .no-print {
       display: none !important;
     }
@@ -128,5 +134,5 @@ const { image, summary, meta, url } = basics
     article {
       break-inside: avoid;
     }
-  }
+  } */
 </style>

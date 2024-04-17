@@ -1,0 +1,40 @@
+---
+import Section from "../Section.astro";
+// import BlogPostsPreview from "../BlogPostsPreview.astro";
+const allPosts = await Astro.glob("../../pages/posts/*.mdx");
+const maxPosts = 3;
+---
+
+<Section title="Ensayos">
+    <!-- <BlogPostsPreview /> -->
+    <ul>
+        {
+            allPosts.slice(0, maxPosts).map((post) => (
+                <li>
+                    <div class="essay-date">
+                        <time>{post.frontmatter.date}</time>
+                    </div>
+                    <span>
+                        <a href={post.url}>{post.frontmatter.title}</a>
+                    </span>
+                </li>
+            ))
+        }
+        <!-- {allPosts.length > maxPosts && (
+                <li>
+                    <a href="/blog/">Read more</a>
+                </li>
+            )} -->
+    </ul>
+</Section>
+
+<style>
+    li {
+        display: flex;
+        /* align-content: center; //nuevo en chrome123 */
+    }
+
+    .essay-date {
+        min-width: 100px;
+    }
+</style>

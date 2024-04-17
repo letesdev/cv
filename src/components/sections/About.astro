@@ -2,10 +2,14 @@
 import Section from "../Section.astro"
 
 import { basics } from "@cv"
-const { summary } = basics
+const { summary, quote } = basics
+const {text, book, author} = quote
 ---
 
 <Section title="Sobre mí">
+  <quote>
+    <i>{text}</i> - <b>{book}, {author}</b>
+  </quote>
   <p>
     {summary}
   </p>
@@ -16,7 +20,7 @@ const { summary } = basics
     color: #666;
     font-size: 1.1rem;
     line-height: 1.5;
-    margin: 0;
+    margin-top: 8px;
     text-wrap: pretty;
   }
 </style>
