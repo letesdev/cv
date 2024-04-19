@@ -1,5 +1,5 @@
 ---
-import TableOfContentsHeading from "@/components/TableOfContentsHeading.astro";
+// import TableOfContentsHeading from "@/components/TableOfContentsHeading.astro";
 const { frontmatter, headings } = Astro.props;
 const toc = buildToc(headings);
 
@@ -29,7 +29,23 @@ function buildToc(headings: any) {
 <nav class="toc">
     <ul>
         <!-- <li class="toc_title">{frontmatter.title}</li> -->
-        {toc.map((heading) => <TableOfContentsHeading heading={heading} />)}
+        <!-- {toc.map((heading) => <TableOfContentsHeading heading={heading} />)} -->
+        {toc.map((heading) => (
+            <li>
+            <a href={'#' + heading.slug} style="padding-left: 10px;">
+                {heading.text}
+            </a>
+            {
+                heading.subheadings.length > 0 && (
+                <ul>
+                    {heading.subheadings.map((subheading: any) => (
+                    <Astro.self heading={subheading} />
+                    ))}
+                </ul>
+                )
+            }
+            </li>
+        ))}
     </ul>
 </nav>
 
