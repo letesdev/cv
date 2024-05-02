@@ -13,7 +13,7 @@ const COMPANY_ICONS: Record<string, any> = {
   <ul>
     {
       work.map(
-        ({ name, startDate, endDate, position, summary, tasks, url }) => {
+        ({ name, startDate, endDate, position, summary, tasks }) => {
           const startYear = new Date(startDate).getFullYear()
           const endYear =
             endDate != null ? new Date(endDate).getFullYear() : "Actual"
