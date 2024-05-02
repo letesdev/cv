@@ -1,0 +1,110 @@
+
+.toc {
+    background: #f9f9f9 none repeat scroll 0 0;
+    border: 1px solid #aaa;
+    display: table;
+    font-size: 95%;
+    margin-bottom: 1em;
+    padding: 10px;
+    width: auto;
+}
+
+.toc_title {
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.main {
+    max-width: 700px;
+    margin: 0 auto 5px;
+    padding-top: 2rem;
+}
+
+.post {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: inherit;
+    gap: 1rem;
+    padding: 1rem 1.1rem 0px 1.1rem;
+}
+
+.return_home {
+    width: 30px;
+    margin: auto;
+    padding-right: 30px;
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+        "FILL" 0,
+        "wght" 700,
+        "GRAD" 0,
+        "opsz" 48;
+}
+
+.post_title {
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+}
+
+.post_body {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+p {
+    font-size: 1.1rem;
+    /* line-height: 1.5; */
+    text-align: justify;
+}
+
+li {
+    font-size: 1.1rem;
+    text-wrap: pretty;
+    padding-bottom: 4px;
+}
+
+h1 {
+    font-size: 1.3rem;
+}
+
+h2 {
+    margin-bottom: 3px;
+    font-weight: 700;
+    line-height: 1.2;
+    font-size: 1.5rem;
+}
+
+.post_img {
+    width:100%;
+    /* padding:2px; */
+}
+
+figure {
+    margin: 1rem 3rem 1rem 3rem;
+}
+
+figcaption {
+    text-wrap: pretty;
+    font-size: 1rem;
+}
+
+@media (width <= 700px) {
+    .main {
+        margin-bottom: 5px;
+    }
+    h1 {
+        font-size: 1.5rem;
+    }
+    figure {
+        margin: 1.2rem;
+    }
+
+    figcaption {
+        text-wrap: pretty;
+        font-size: 1rem;
+    }
+}

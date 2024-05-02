@@ -1,6 +1,8 @@
 ---
+// not used, TOC included in .mdx file and styled with /styles/MarkdownPosts.css
+
 // import TableOfContentsHeading from "@/components/TableOfContentsHeading.astro";
-const { frontmatter, headings } = Astro.props;
+const { headings } = Astro.props;
 const toc = buildToc(headings);
 
 function buildToc(headings: any) {
@@ -48,20 +50,3 @@ function buildToc(headings: any) {
         ))}
     </ul>
 </nav>
-
-<style>
-    .toc {
-        background: #f9f9f9 none repeat scroll 0 0;
-        border: 1px solid #aaa;
-        display: table;
-        font-size: 95%;
-        margin-bottom: 1em;
-        padding: 10px;
-        width: auto;
-    }
-
-    .toc_title {
-        font-weight: 700;
-        margin-bottom: 5px;
-    }
-</style>

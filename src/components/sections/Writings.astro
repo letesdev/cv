@@ -1,7 +1,9 @@
 ---
+import { getCollection } from "astro:content";
 import Section from "../Section.astro";
 // import BlogPostsPreview from "../BlogPostsPreview.astro";
-const allPosts = await Astro.glob("../../pages/posts/*.mdx");
+// const allPosts = await Astro.glob("../../pages/posts/*.mdx");
+const allPosts = await getCollection("posts", ({data}) => {return data.draft == false;});
 const maxPosts = 3;
 ---
 
@@ -12,10 +14,16 @@ const maxPosts = 3;
             allPosts.slice(0, maxPosts).map((post) => (
                 <li>
                     <div class="essay-date">
-                        <time>{post.frontmatter.date}</time>
+                        {/* <time>{post.frontmatter.date}</time> */}
+                        <time>{post.data.date.toLocaleDateString("es-es", {
+                            year: 'numeric',
+                            month: '2-digit',
+                            day: 'numeric'
+                        })}</time>
                     </div>
                     <span>
-                        <a href={post.url}>{post.frontmatter.title}</a>
+                        {/* <a href={post.url}>{post.frontmatter.title}</a> */}
+                        <a href={`/portfolio/posts/${post.slug}/`}>{post.data.title}</a>
                     </span>
                 </li>
             ))

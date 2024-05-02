@@ -5,6 +5,6 @@ import mdx from '@astrojs/mdx';
 export default defineConfig({
     site: 'https://letesdev.github.io',
     base: '/portfolio',
-    server: { host: true },
+    // server: { host: true },
     integrations: [mdx()],
 });
