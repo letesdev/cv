@@ -186,6 +186,13 @@
       "keywords": [
         "Desarrollo Web", "Frontend", "Backend", "Fullstack"
       ]
+    },
+    {
+      "name": "astro",
+      "level": "Avanzado",
+      "keywords": [
+        "Robotics"
+      ]
     }
   ],
   "languages": [
@@ -215,7 +222,10 @@
       "isActive": true,
       "description": "Imprime unos cartones y juega al bingo en familia desde casa. Deja que las voces de los personajes te alegren el día 😂",
       "highlights": [
-        "WebApp",
+        "Game",
+        "Static Web",
+        "Astro",
+        "Javascript",
         "GitHub Pages"
       ],
       "url": "https://letesdev.github.io/bingoletes/",
@@ -240,6 +250,7 @@
       "isActive": true,
       "description": "Implementación del famoso juego Gobblets Gobblers, una variante del Tres en Raya. Demuestra lo que vales frente a un bot! 🕹",
       "highlights": [
+        "Game",
         "C/C++",
         "CLI", 
         "Bot"
