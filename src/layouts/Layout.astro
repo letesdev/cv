@@ -8,7 +8,7 @@ interface Props {
 }
 
 const { title } = Astro.props
-const { image, meta, url } = basics
+const { image, label, meta, url } = basics
 ---
 
 <!doctype html>
@@ -16,7 +16,7 @@ const { image, meta, url } = basics
   <head>
     <meta charset="UTF-8" />
     <title>{title}</title>
-    <meta name="description" content={meta} />
+    <meta name="description" content={label} />
     <meta name="keywords" content={skills.map((skill) => skill.name).join(',')}/>
     <meta name="viewport" content="width=device-width" />
     <!-- <link rel="icon" type="image/svg+xml" href="/portfolio/favicon.svg" /> -->
