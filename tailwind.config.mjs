@@ -4,7 +4,8 @@ export default {
 	theme: {
 		extend: {
 			fontFamily: {
-				'plex': ['"IBM Plex Sans"', 'sans-serif'],
+				'headers': ['system-ui'],
+				'sans': ['IBM Plex Sans'],
 			},
 			letterSpacing: {
 				tighter: '-0.025rem',
