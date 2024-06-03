@@ -1,6 +1,6 @@
 ---
 import Layout from "@/layouts/Layout.astro"
-import "../styles/index.css";
+// import "../styles/index.css"; // old, now tailwindcss
 
 import About from "@/components/sections/About.astro"
 // import Education from "@/components/sections/Education.astro"
@@ -15,7 +15,7 @@ const { name, label } = basics
 ---
 
 <Layout title={`${name} - ${label}`}>
-  <main>
+  <main class="p-8 sm:mx-auto sm:w-full sm:p-4">
     <Hero />
     <About />
     <Skills />
