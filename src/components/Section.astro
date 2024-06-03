@@ -3,31 +3,8 @@
 const { title } = Astro.props
 ---
 
-<section>
-  {title && <h2>{title}</h2>}
+<section class="mb-1.5 max-w-xl mx-auto mt-2" >
+  {title && <h2 class="text-2xl leading-6 font-headers font-bold mb-2">{title}</h2>}
   <slot />
 </section>
 
-<script>
-  // se ejecuta en el cliente <----
-</script>
-
-<style>
-  section {
-    max-width: 700px;
-    margin: 8px auto 0 auto;
-  }
-
-  h2 {
-    margin-bottom: 8px;
-    font-weight: 700;
-    line-height: 1.5;
-    font-size: 1.5rem;
-  }
-
-  @media (width <= 700px) {
-    section {
-      margin-bottom: 5px;
-    }
-  }
-</style>

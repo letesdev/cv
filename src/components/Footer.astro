@@ -1,31 +1,9 @@
 ---
 const currentYear = new Date().getFullYear()
 ---
-<div class="footer">
-    <div class="footer_left">© {currentYear} <a href="https://letesdev.github.io/">letesdev</a>. Casi
-        todos los derechos reservados</div>
+<div class="p-8 sm:mx-auto sm:w-full sm:p-4">
+    <div class="mb-1.5 max-w-xl mx-auto mt-2">
+        © {currentYear} <a href="https://letesdev.github.io/" class="text-blue-500">letesdev</a>. Casi todos los derechos reservados.
+    </div>
     <!-- <div class="footer_right"></div> -->
 </div>
-
-<style>
-    .footer {
-        align-items: center;
-        align-content: center;
-        bottom: 0px;
-        max-width: 700px;
-        margin: 0 auto 3px;
-    }
-
-    .footer_left {
-        padding: 0.5rem 1rem 1rem 1rem;
-        margin: auto;
-        width: 100%;
-    }
-
-    /* @media (width <= 700px) {
-        .footer_left {
-            align-self: flex-start;
-            margin-right: 20px;
-        }
-    } */
-</style>
