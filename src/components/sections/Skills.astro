@@ -41,11 +41,12 @@ const SKILLS_ICONS: Record<string, any> = {
 ---
 
 <Section title="Habilidades">
-  <ul>
+  <ul class="inline-flex gap-2 flex-wrap">
     {
       skills.map(({ name }) => {
-        const iconName = name === "Next.js" ? "Next" : 
-                        name === "C/C++" ? "C" : name;
+        const iconName =  name === "Next.js" ? "Next" : 
+                          name === "C/C++" ? "C" :
+                          name === "Astro" ? "astro": name;
         const Icon = SKILLS_ICONS[iconName]
 
         return (
@@ -59,11 +60,11 @@ const SKILLS_ICONS: Record<string, any> = {
 </Section>
 
 <style>
-  ul {
+  /* ul {
     display: inline-flex;
     gap: 8px;
     flex-wrap: wrap;
-  }
+  } */
 
   li {
     align-items: center;
