@@ -2,30 +2,31 @@
 
 ---
 
-<style type="text/css" media="screen">
-    .gr_grid_container {
-        /* customize grid container div here. eg: width: 500px; */
-    }
-
-    .gr_grid_book_container {
-        /* customize book cover container div here */
-        float: left;
-        width: 98px;
-        height: 160px;
-        padding: 5px 5px;
-        /* border: 1px;
-        border-radius: 5%; */
-        overflow: hidden;
-    }
-
-    .gr_grid_book_container:hover {
-    transform: scale(1.2); /* Slightly increase the size */
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.8); /* Create a ring effect */
-}
-</style>
-<div id="gr_grid_widget_1717146380">
+<div id="gr_grid_widget_1717587286">
     <!-- Show static html as a placeholder in case js is not enabled - javascript include will override this if things work -->
     <div class="gr_grid_container">
+        <div class="gr_grid_book_container">
+            <a
+                title="Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones"
+                rel="nofollow"
+                href="https://www.goodreads.com/book/show/40121378-atomic-habits"
+                ><img
+                    alt="Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones"
+                    border="0"
+                    src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1655988385l/40121378._SX98_.jpg"
+                /></a>
+        </div>
+        <div class="gr_grid_book_container">
+            <a
+                title="El sistema y la madre que lo parió. Las trampas y mentiras del discurso políticamente correcto (Spanish Edition)"
+                rel="nofollow"
+                href="https://www.goodreads.com/book/show/197452011-el-sistema-y-la-madre-que-lo-pari-las-trampas-y-mentiras-del-discurso"
+                ><img
+                    alt="El sistema y la madre que lo parió. Las trampas y mentiras del discurso políticamente correcto"
+                    border="0"
+                    src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1697500761l/197452011._SX98_.jpg"
+                /></a>
+        </div>
         <div class="gr_grid_book_container">
             <a
                 title="Que mi gente vaya a hacer surf"
@@ -103,13 +104,6 @@
                     src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1457284880l/27220736._SX98_.jpg"
                 /></a>
         </div>
-        <br style="clear: both" /><br /><a
-            class="gr_grid_branding"
-            style="font-size: .9em; color: #382110; text-decoration: none; float: right; clear: both"
-            rel="nofollow"
-            href="https://www.goodreads.com/user/show/125419470-carlos"
-            >Carlos's favorite books »</a
-        >
         <noscript
             ><br />Share <a rel="nofollow" href="/">book reviews</a> and ratings
             with Carlos, and even join a <a rel="nofollow" href="/group"
@@ -118,7 +112,42 @@
         >
     </div>
 </div>
-<!-- <script
-    src="https://www.goodreads.com/review/grid_widget/125419470.Carlos's%20favorites%20book%20montage?cover_size=medium&hide_link=&hide_title=true&num_books=7&order=d&shelf=favorites&sort=date_read&widget_id=1717146380"
+<script
+    src="https://www.goodreads.com/review/grid_widget/125419470.Carlos's%20favorites%20book%20montage?cover_size=medium&hide_link=true&hide_title=true&num_books=10&order=d&shelf=favorites&sort=date_read&widget_id=1717587286"
     type="text/javascript"
-    charset="utf-8"></script> -->
+    charset="utf-8"></script>
+
+<!-- <script>
+    // script from Goodreads changes the innerHTML value from 'gr_grid_widget_1717584854' element, so this script aims to give style afterwards. 
+    // Select all elements with the class 'gr_grid_book_container'
+    const elements = document.querySelectorAll('.gr_grid_book_container');
+
+    // Loop through each element and add the Tailwind classes
+    elements.forEach(element => {
+        element.classList.add('float-left', 'w-[98px]', 'h-auto', 'overflow-hidden', 'p-1', 'sm:border', 'sm:border-gray-200', 'sm:rounded-lg');
+        const anchor = element.querySelector('a');
+        if (anchor) {
+            anchor.classList.add('my-auto');
+        }
+    });
+</script> -->
+
+<script>
+    const element = document.querySelector(".gr_grid_container");
+    if (element) {
+        element.classList.add("grid", "grid-cols-3", "sm:grid-cols-5", "gap-1");
+    }
+    const elemnts = document.querySelectorAll(".gr_grid_book_container");
+    elemnts.forEach((element) => {
+        element.classList.add(
+            "w-[98px]",
+            "h-[146px]",
+            "p-1",
+            "my-auto",
+            "mx-auto",
+            "border",
+            "border-gray-400",
+            "rounded-lg",
+        );
+    });
+</script>
